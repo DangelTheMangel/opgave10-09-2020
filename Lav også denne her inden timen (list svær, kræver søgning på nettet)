@@ -1,0 +1,4 @@
+public Integer getElement(List<Integer> list, Integer n) {
+int a = 2 * (n-1);
+return a > list.size() - 1 ? -1 : list.get(a);
+}
